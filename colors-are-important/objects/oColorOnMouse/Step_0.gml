@@ -1,3 +1,5 @@
+if(oGame.pauseTime = 0)
+{
 x = mouse_x;
 y = mouse_y;
 if(mouse_check_button_released(mb_left))
@@ -10,6 +12,7 @@ if(mouse_check_button_released(mb_left))
 	with(instance_create_depth(oPlayer.x,oPlayer.y,-10,oColorBullet))
 	{
 		image_blend = oColorOnMouse.image_blend;
+		image_angle = point_direction(x,y,oColorOnMouse.x,oColorOnMouse.y);
 		move_towards_point(oColorOnMouse.x,oColorOnMouse.y,32);
 	}
 	instance_destroy();
@@ -41,4 +44,5 @@ if(place_meeting(x,y,oColor))
 			image_alpha = 0;	
 		}
 	}
+}
 }

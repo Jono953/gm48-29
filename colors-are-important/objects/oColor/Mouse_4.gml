@@ -1,3 +1,5 @@
+if(oGame.pauseTime = 0)
+{
 with(instance_create_depth(x,y,-10,oColorOnMouse))
 {
 	image_blend = instance_nearest(x,y,oColor).image_blend;	
@@ -6,3 +8,4 @@ with(instance_create_depth(x,y,-10,oColorOnMouse))
 	starty = instance_nearest(x,y,oColor).y;
 }
 instance_destroy();
+}

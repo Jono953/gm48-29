@@ -1,0 +1,9 @@
+camera = camera_create();
+x = oPlayer.x;
+y = oPlayer.y;
+vm = matrix_build_lookat(x,y,-10,x,y,0,0,1,0);;
+pm = matrix_build_projection_ortho(1920,1080,-10000,10000);
+shake = 0;
+shakex = 0;
+shakey = 0;
+view_camera[0]= camera;
