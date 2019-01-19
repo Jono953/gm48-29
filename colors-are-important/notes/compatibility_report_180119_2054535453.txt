@@ -1,0 +1,4 @@
+Converting GML script: ${project_dir}\scripts\smooth_approach\smooth_approach.gml
+Converted description /// @description smooth_approach(current, target, speed[0-1])/// @param current
+/// @param  target
+/// @param  speed[0-1]
