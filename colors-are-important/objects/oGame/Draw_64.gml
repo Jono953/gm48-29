@@ -16,3 +16,22 @@ if(pauseMode)
 }
 draw_sprite(sTransition,0,transitionX,0);
 }
+if(room = rm_tutorial)
+{
+	draw_set_font(fGame);
+	draw_text(25,25,"HOW TO PLAY");
+	draw_set_font(fGame2);
+	draw_text(360,440,"Tap to move around.");
+	draw_text(1024,578,"Drag primary colors together to create secondary colors.\nLet go of color to attack.");
+}
+if(room = room01)
+{
+	draw_set_font(fGame);
+	draw_text(25,25,"CHARACTER SELECT");
+}
+if(room = rm_credits)
+{
+	draw_set_font(fGame);
+	draw_text(25,25,"CREDITS");
+	draw_text(25,100,"Made in 48 hours for gm(48) #29. \nProgramming:\nJonathan Ouf (@Jono953)\nTony Dong (@generic_tony)\nArt:\nTony Dong (@generic_tony)\nMusic:\nJonathan Ouf (@Jono953)");
+}

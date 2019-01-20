@@ -1,3 +1,23 @@
+if(room = rm_credits or room = room011 or room = room01)
+{
+	currentSong = penbox64;	
+}
+if(room = room0)
+{
+	if(scr < 250000)
+	{
+		currentSong = penbox65;	
+	}
+	else
+	{
+		currentSong = penbox64_2;	
+	}
+}
+if(room = rm_death)
+{
+	currentSong = penbox64_3;
+}
+music(currentSong);
 if(room = room0)
 {
 dscr = lerp(dscr,scr,0.1);

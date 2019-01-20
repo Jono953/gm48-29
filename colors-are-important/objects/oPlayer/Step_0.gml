@@ -12,6 +12,8 @@ image_xscale = -1;
 }
 if((place_meeting(x,y,oEnemy) or place_meeting(x,y,oEnemyBullet)) and invun = 0)
 {
+	instance_create_depth(x,y,-10,oExplosion);
+	oGame.scrNext = 0;
 	oGame.lvs -= 1;
 	oGame.multi = 1;
 	invun = 150;

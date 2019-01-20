@@ -6,3 +6,7 @@ ygoal = random_range(1,2);
 image_angle = random_range(-180,180);
 oCamera.shake += 10;
 image_blend = make_color_rgb(random_range(170,255),random_range(170,255),random_range(170,255))
+if(irandom(60))
+{
+sound(choose(explosion1,explosion2,explosion3,explosion4,explosion5));
+}

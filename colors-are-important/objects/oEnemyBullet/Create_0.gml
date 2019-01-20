@@ -11,3 +11,4 @@ sprite_index = choose(sBullet,sBullet1);
 image_xscale = 0.35;
 image_yscale = 0.35;
 image_blend = instance_nearest(x,y,oBad).image_blend;
+sound(laser);
