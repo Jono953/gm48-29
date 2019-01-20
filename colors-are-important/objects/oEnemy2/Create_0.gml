@@ -10,6 +10,6 @@ image_blend = choose(oGame.red,oGame.orange,oGame.yellow,oGame.green,oGame.blue,
 respond = false;
 dead = false;
 hp = 10;
-refreshTime = 30;
+refreshTime = 180;
 time = 0;
 blasterScale = 0;

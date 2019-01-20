@@ -2,12 +2,13 @@ if(oGame.pauseTime = 0)
 {
 if(refreshTime = 0)
 {
+	instance_create_depth(x,y,-10,oEnemyBullet);
 	move_towards_point(oPlayer.x,oPlayer.y,0.25);
 	hsp = hspeed;
 	vsp = vspeed;
 	hspeed = 0;
 	vspeed = 0;
-	refreshTime = 30;
+	refreshTime = 180;
 	if(irandom(1000) > 950)
 	{
 		instance_create_depth(x,y,-10,oEnemy);	
@@ -68,7 +69,7 @@ else if(oGame.bonusTime = 0 and respond)
 }
 if(dead)
 {
-	image_alpha = lerp(image_alpha,0,0.0125);
+	image_alpha = lerp(image_alpha,0,0.025);
 	image_angle = lerp(image_angle,180,0.0125);
 	hsp = lerp(hsp,0,0.2);
 	vsp = lerp(vsp,0,0.2);

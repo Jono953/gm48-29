@@ -46,31 +46,32 @@ if(levelComplete)
 switch(level)
 {
 	case 2:	
-		for(i=0;i<3;i++)
-		{
-			instance_create_depth(0,0,-10,oEnemy3);	
-		}
-		instance_create_depth(0,0,-10,oEnemy2);
-	break;
-	case 3:
-		for(i=0;i<3;i++)
+		for(i=0;i<4;i++)
 		{
 			instance_create_depth(0,0,-10,oEnemy);	
 		}
-		for(i=0;i<5;i++)
+	break;
+	case 3:
+		for(i=0;i<4;i++)
 		{
-			instance_create_depth(0,0,-10,oEnemy3);	
+			instance_create_depth(0,0,-10,oEnemy);	
 		}
-		instance_create_depth(0,0,-10,oEnemy2);
 	break;
 	case 4:
-	
+		for(i=0;i<2;i++)
+		{
+			instance_create_depth(0,0,-10,oEnemy3);	
+		}	
 	break;
 	case 5:
-
+		for(i=0;i<2;i++)
+		{
+			instance_create_depth(0,0,-10,oEnemy);	
+		}
+		instance_create_depth(0,0,-10,oEnemy3);	
 	break;
 	case 6:
-	
+		instance_create_depth(0,0,-10,oEnemy2);	
 	break;
 	case 7:
 	
