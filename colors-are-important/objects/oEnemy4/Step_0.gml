@@ -5,7 +5,7 @@ if(refreshTime = 0)
 	instance_create_depth(x,y,-10,oEnemyBullet);
 	teleportStart = true;
 	teleportFinish = false;
-	refreshTime = 240;
+	refreshTime = 200;
 	if(electric)
 	{
 	dead = true;	
@@ -75,10 +75,6 @@ if(image_alpha < 0.01)
 	if(oGame.bonusTime > 0)
 	{
 		oGame.bonusTime += 60;	
-	}
-	if(irandom(1000) > 950)
-	{
-		instance_create_depth(x,y,-10,oPowerUp);	
 	}
 	instance_destroy();	
 	add_score(500,0.1);

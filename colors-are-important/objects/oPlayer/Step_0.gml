@@ -1,3 +1,5 @@
+if(oGame.pauseTime = 0)
+{
 blasterScale = lerp(blasterScale,(abs(sin(time/32)/16)+abs(hsp/4)+abs(vsp/8))*image_xscale,0.1);
 time++;
 if(hsp > 0)
@@ -35,7 +37,7 @@ if(mouse_check_button_pressed(mb_left) and !instance_exists(oColorOnMouse))
 {
 	gtx = mouse_x;
 	gty = mouse_y;
-	move_towards_point(gtx,gty,3);
+	move_towards_point(gtx,gty,spd);
 	hsp = hspeed;
 	vsp = vspeed;
 	hspeed = 0;
@@ -52,4 +54,6 @@ with(oEnvironmentSpin)
 {
 	x += oPlayer.hsp / abs(depth/4);
 	y += oPlayer.vsp / abs(depth/4);
+}
+moveRot += 2;
 }

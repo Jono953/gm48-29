@@ -87,10 +87,6 @@ if(image_alpha < 0.01)
 	{
 		oGame.bonusTime += 60;	
 	}
-	if(irandom(1000) > 900)
-	{
-		instance_create_depth(x,y,-10,oPowerUp);	
-	}
 	instance_destroy();	
 	add_score(750,0.1);
 	oGame.kills++;	

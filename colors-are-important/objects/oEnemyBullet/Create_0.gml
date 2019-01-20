@@ -1,4 +1,4 @@
-move_towards_point(oPlayer.x,oPlayer.y,4);
+move_towards_point(oPlayer.x+random_range(-32,32),oPlayer.y+random_range(-32,32),random_range(3,5));
 image_angle = point_direction(x,y,oPlayer.x,oPlayer.y);
 gthsp = hspeed;
 gtvsp = vspeed;

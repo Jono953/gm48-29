@@ -1,0 +1,11 @@
+sprite_index = choose(sPlayer24,sPlayer1,sPlayer2,sPlayer3);
+image_xscale = 0.7;
+image_yscale = 0.7;
+xOffset = random_range(-150,150);
+yOffset = random_range(-150,150);
+color = choose(oGame.red,oGame.orange,oGame.yellow,oGame.green,oGame.blue,oGame.purple);
+baseColor = color;
+time = 0;
+blasterScale = 0;
+timerShoot = 0;
+hp = 3;

@@ -1,0 +1,12 @@
+if(selected)
+{
+draw_set_color(c_lime);
+draw_ellipse(x-90,y-90,x+90,y+90,false);
+draw_set_color(c_white);
+}
+else
+{
+draw_ellipse(x-90,y-90,x+90,y+90,true);
+draw_set_color(c_white);	
+}
+draw_self();

@@ -1,1 +1,2 @@
+randomize();
 generate_room();

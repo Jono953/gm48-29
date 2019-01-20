@@ -5,3 +5,7 @@ instance_create_depth(x,y,-10,oDebris);
 instance_create_depth(x,y,-10,oDebris);
 }
 instance_create_depth(x,y,-10,oBam);
+if(irandom(1000) > 900)
+{
+	instance_create_depth(x,y,-10,oPowerUp);	
+}

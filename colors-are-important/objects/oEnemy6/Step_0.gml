@@ -2,7 +2,18 @@ if(oGame.pauseTime = 0)
 {
 if(refreshTime = 0)
 {	
-	instance_create_depth(x,y,-10,oEnemyBullet);
+	if(irandom(100) > 40){
+		for(i=0;i<10;i++){
+			with(instance_create_depth(x,y,-10,oEnemyBullet))
+			{
+				sprite_index = sBullet1;
+			}
+		}
+	}
+	else
+	{
+		instance_create_depth(x,y,-10,oEnemyBullet);
+	}
 	teleportStart = true;
 	teleportFinish = false;
 	refreshTime = 300;
@@ -89,11 +100,8 @@ if(image_alpha < 0.01)
 	{
 		oGame.bonusTime += 60;	
 	}
-	if(irandom(1000) > 950)
-	{
-		instance_create_depth(x,y,-10,oPowerUp);	
-	}
-		add_score(4000,2);
+	instance_create_depth(x,y,-10,oPowerUp);	
+	add_score(4000,2);
 	oGame.kills += 20;	
 	instance_create_depth(x,y,-10,oBam);
 	for(i=0;i<16;i++)

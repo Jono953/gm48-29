@@ -15,3 +15,4 @@ switch(image_blend)
 }
 x = oPlayer.x + xOffset;
 y = oPlayer.y + yOffset;
+depth = -75;

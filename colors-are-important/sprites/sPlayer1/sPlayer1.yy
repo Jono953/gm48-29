@@ -11,7 +11,7 @@
     "bbox_right": 166,
     "bbox_top": 11,
     "bboxmode": 0,
-    "colkind": 1,
+    "colkind": 0,
     "coltolerance": 0,
     "edgeFiltering": false,
     "frames": [
@@ -65,6 +65,6 @@
     "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
     "type": 0,
     "width": 181,
-    "xorig": 33,
+    "xorig": 89,
     "yorig": 47
 }

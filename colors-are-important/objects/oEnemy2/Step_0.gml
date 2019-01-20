@@ -2,8 +2,19 @@ if(oGame.pauseTime = 0)
 {
 if(refreshTime = 0)
 {
-	instance_create_depth(x,y,-10,oEnemyBullet);
-	move_towards_point(oPlayer.x,oPlayer.y,0.25);
+	if(irandom(100) > 40){
+		for(i=0;i<6;i++){
+			with(instance_create_depth(x,y,-10,oEnemyBullet))
+			{
+				sprite_index = sBullet1;
+			}
+		}
+	}
+	else
+	{
+		instance_create_depth(x,y,-10,oEnemyBullet);
+	}
+	move_towards_point(oPlayer.x,oPlayer.y,1);
 	hsp = hspeed;
 	vsp = vspeed;
 	hspeed = 0;
@@ -45,8 +56,8 @@ if(place_meeting(x,y,oColorBullet))
 			image_blend = choose(oGame.red,oGame.orange,oGame.yellow,oGame.green,oGame.blue,oGame.purple);
 			add_score(250,0.1);
 			hp -= 1;
-			hsp = -hsp*2;
-			vsp = -vsp*2;
+			hsp = -hsp/2;
+			vsp = -vsp/2;
 			instance_create_depth(x+random_range(-128,128),y+random_range(-128,128),-100,oExplosion);
 		}
 		else
