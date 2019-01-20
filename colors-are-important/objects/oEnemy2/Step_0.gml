@@ -8,7 +8,7 @@ if(refreshTime = 0)
 	hspeed = 0;
 	vspeed = 0;
 	refreshTime = 30;
-	if(irandom(1000) > 800)
+	if(irandom(1000) > 950)
 	{
 		instance_create_depth(x,y,-10,oEnemy);	
 	}
@@ -28,7 +28,7 @@ else
 }
 x += hsp;
 y += vsp;
-blasterScale = lerp(blasterScale,abs(sin(time/64)/4+0.25)*image_xscale,0.1);
+blasterScale = lerp(blasterScale,abs(sin(time/32)/4+0.25)*image_xscale,0.1);
 time++;
 if(place_meeting(x,y,oColorBullet))
 {
@@ -68,8 +68,8 @@ else if(oGame.bonusTime = 0 and respond)
 }
 if(dead)
 {
-	image_alpha = lerp(image_alpha,0,0.025);
-	image_angle = lerp(image_angle,180,0.025);
+	image_alpha = lerp(image_alpha,0,0.0125);
+	image_angle = lerp(image_angle,180,0.0125);
 	hsp = lerp(hsp,0,0.2);
 	vsp = lerp(vsp,0,0.2);
 	
@@ -86,7 +86,7 @@ if(image_alpha < 0.01)
 	}
 	instance_create_depth(x,y,-10,oPowerUp);	
 	instance_destroy();	
-	add_score(1000,0.5);
+	add_score(2000,0.5);
 	oGame.kills += 10;	
 	instance_create_depth(x,y,-10,oBam);
 	for(i=0;i<8;i++)

@@ -44,4 +44,5 @@ if(place_meeting(x,y,oColorBullet) or place_meeting(x,y,oPlayer))
 	
 	add_score(2500,0);
 	instance_destroy();
+	oCamera.shake += 16;
 }

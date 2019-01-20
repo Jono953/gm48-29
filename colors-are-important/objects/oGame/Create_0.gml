@@ -14,3 +14,4 @@ purple = make_color_rgb(127,0,255);
 green = make_color_rgb(0,180,0);
 pauseTime = 0;
 pauseMode = false;
+levelComplete = false;

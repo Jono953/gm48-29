@@ -4,4 +4,4 @@ image_yscale = 0;
 xgoal = random_range(1,2);
 ygoal = random_range(1,2);
 image_angle = random_range(-180,180);
-oCamera.shake += 6;
+oCamera.shake += 10;

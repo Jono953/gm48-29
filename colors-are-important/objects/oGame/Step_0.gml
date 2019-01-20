@@ -12,15 +12,7 @@ if(scr > nextlv)
 	lvs++;
 	nextlv += 10000 * multi;
 }
-if(kills >= bonus)
-{
-	bonus += 50;
-	bonusTime += 15*60;
-}
-if(bonusTime > 0 and pauseTime = 0)
-{
-	bonusTime--;	
-}
+
 if(pauseTime > 0)
 {
 pauseTime--;	
@@ -39,4 +31,8 @@ if(keyboard_check_pressed(ord("P")))
 if(pauseMode)
 {
 pauseTime = 3;	
+}
+if(keyboard_check_pressed(ord("R")))
+{
+	room_restart();
 }

@@ -1,0 +1,17 @@
+spawndir = choose(0,1);
+x = -irandom(600) + (2800*spawndir);
+y = irandom(1080);
+move_towards_point(oPlayer.x,oPlayer.y,1);
+hsp = hspeed;
+vsp = vspeed;
+hspeed = 0;
+vspeed = 0;
+image_blend = choose(oGame.red,oGame.orange,oGame.yellow,oGame.green,oGame.blue,oGame.purple);
+respond = false;
+dead = false;
+blasterScale = 0;
+time = 0;
+electric = false;
+refreshTime = 480;
+hp = 3;
+reloadTime = 120;

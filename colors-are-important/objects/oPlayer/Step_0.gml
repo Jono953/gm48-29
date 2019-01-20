@@ -1,4 +1,4 @@
-blasterScale = lerp(blasterScale,(abs(sin(time/64)/16)+abs(hsp/4)+abs(vsp/8))*image_xscale,0.1);
+blasterScale = lerp(blasterScale,(abs(sin(time/32)/16)+abs(hsp/4)+abs(vsp/8))*image_xscale,0.1);
 time++;
 if(hsp > 0)
 {
@@ -8,15 +8,13 @@ else if(hsp < 0)
 {
 image_xscale = -1;	
 }
-if(place_meeting(x,y,oEnemy) and invun = 0)
+if((place_meeting(x,y,oEnemy) or place_meeting(x,y,oEnemyBullet)) and invun = 0)
 {
 	oGame.lvs -= 1;
-	invun = 60;
-	oGame.combo = 1;
-	with(instance_nearest(x,y,oEnemy))
-	{
-		dead = true;		
-	}
+	oGame.multi = 1;
+	invun = 90;
+	hsp = random_range(-8,8);
+	vsp = random_range(-8,8);
 }
 if(invun > 0)
 {
@@ -60,3 +58,8 @@ hsp = lerp(hsp,0,0.1);
 }
 x += hsp;
 y += vsp;
+with(oEnvironmentSpin)
+{
+	x += oPlayer.hsp / abs(depth/4);
+	y += oPlayer.vsp / abs(depth/4);
+}

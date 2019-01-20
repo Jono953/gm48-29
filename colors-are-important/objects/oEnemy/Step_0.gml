@@ -25,7 +25,7 @@ else
 	image_xscale = -1;	
 }
 
-blasterScale = lerp(blasterScale,abs(sin(time/64)/4+0.5)*image_xscale,0.1);
+blasterScale = lerp(blasterScale,abs(sin(time/32)/4+0.5)*image_xscale,0.1);
 time++;
 x += hsp;
 y += vsp;

@@ -1,0 +1,13 @@
+x = irandom(1920);
+y = irandom(1080);
+hsp = 0;
+vsp = 0;
+image_blend = choose(oGame.red,oGame.orange,oGame.yellow,oGame.green,oGame.blue,oGame.purple);
+respond = false;
+dead = false;
+blasterScale = 0;
+time = 0;
+electric = false;
+refreshTime = 240;
+teleportStart = false;
+teleportFinish = false;
