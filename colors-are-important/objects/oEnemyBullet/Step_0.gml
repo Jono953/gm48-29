@@ -11,8 +11,5 @@ if(place_meeting(x,y,oColorBullet))
 {
 	add_score(50,0);
 	instance_destroy();
-	with(instance_nearest(x,y,oColorBullet))
-	{
-		instance_destroy();
-	}
+	instance_create_depth(x,y,-10,oPop);
 }

@@ -12,12 +12,11 @@ if((place_meeting(x,y,oEnemy) or place_meeting(x,y,oEnemyBullet)) and invun = 0)
 {
 	oGame.lvs -= 1;
 	oGame.multi = 1;
-	invun = 90;
-	hsp = random_range(-8,8);
-	vsp = random_range(-8,8);
+	invun = 150;
 }
 if(invun > 0)
 {
+
 	if(image_alpha = 1)
 	{
 		image_alpha = 0;	
@@ -32,32 +31,23 @@ else
 {
 	image_alpha = 1;	
 }
-if(keyboard_check(ord("W")))
+if(mouse_check_button_pressed(mb_left) and !instance_exists(oColorOnMouse))
 {
-vsp = lerp(vsp,-2,0.1);
-}
-else if(keyboard_check(ord("S")))
-{
-vsp = lerp(vsp,2,0.1);
-}
-else
-{
-vsp = lerp(vsp,0,0.1);	
-}
-if(keyboard_check(ord("A")))
-{
-hsp = lerp(hsp,-2,0.1);
-}
-else if(keyboard_check(ord("D")))
-{
-hsp = lerp(hsp,2,0.1);
-}
-else
-{
-hsp = lerp(hsp,0,0.1);	
+	gtx = mouse_x;
+	gty = mouse_y;
+	move_towards_point(gtx,gty,3);
+	hsp = hspeed;
+	vsp = vspeed;
+	hspeed = 0;
+	vspeed = 0;
 }
 x += hsp;
 y += vsp;
+if(distance_to_point(gtx,gty) < 50)
+{
+hsp = lerp(hsp,0,0.05);
+vsp = lerp(vsp,0,0.05);
+}
 with(oEnvironmentSpin)
 {
 	x += oPlayer.hsp / abs(depth/4);

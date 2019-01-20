@@ -7,3 +7,7 @@ vsp = 0;
 hspeed = 0;
 vspeed = 0;
 time = 0;
+sprite_index = choose(sBullet,sBullet1);
+image_xscale = 0.35;
+image_yscale = 0.35;
+image_blend = instance_nearest(x,y,oBad).image_blend;

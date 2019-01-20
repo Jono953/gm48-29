@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "52a64fa7-14e0-476e-bfc9-35034ea53ef3",
+            "Value": {
+                "id": "1a42f205-01ce-4102-a738-603f4a52fbe8",
+                "resourcePath": "sprites\\sBullet1\\sBullet1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "57ea2c36-b593-464f-9aba-d6a82ab0be80",
             "Value": {
                 "id": "7ffbba14-4058-45ce-a3cd-f8037239fd26",
@@ -436,14 +444,6 @@
                 "id": "6dd1e5cf-7cc3-487e-ba6f-ab368a265c2e",
                 "resourcePath": "objects\\oColorOnMouse\\oColorOnMouse.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "92d71eca-3435-45f7-b52f-8dbcf533cec2",
-            "Value": {
-                "id": "4e1de37f-a121-4189-adac-57e79b96b5f0",
-                "resourcePath": "sprites\\sEBullet\\sEBullet.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -687,6 +687,14 @@
             }
         },
         {
+            "Key": "ebfbada3-6651-474b-8a67-617589406b46",
+            "Value": {
+                "id": "9c641929-e78f-40f7-825d-f2f702a18250",
+                "resourcePath": "sprites\\sDebris2\\sDebris2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "ed37cf8d-9666-46b3-aa61-54fe0c0dcd22",
             "Value": {
                 "id": "7515a4aa-0dc6-47e0-892a-529d2be4713e",
@@ -739,6 +747,14 @@
             "Value": {
                 "id": "9af99be2-3796-4dfa-948e-5dcb291f4e53",
                 "resourcePath": "sprites\\sPlanet3\\sPlanet3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f6f826ef-2abe-4b3a-a6d6-d4e5f0f0d3ae",
+            "Value": {
+                "id": "71736a75-52b4-4897-9aba-98852eef9d59",
+                "resourcePath": "sprites\\sBullet\\sBullet.yy",
                 "resourceType": "GMSprite"
             }
         },
