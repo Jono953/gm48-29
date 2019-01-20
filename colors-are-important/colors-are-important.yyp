@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "12d79ce2-e3b8-4d2a-9102-194def846b15",
+            "Value": {
+                "id": "e7b90a3d-2958-4123-86be-f543f3e94c59",
+                "resourcePath": "objects\\oBackMenu\\oBackMenu.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1548f9da-6b97-475a-9c61-08ced53a0bbe",
             "Value": {
                 "id": "7c238d76-0bd5-4750-9ead-0796e3946a33",
@@ -67,6 +75,14 @@
             "Value": {
                 "id": "508372ea-3ec2-45e5-8718-59ba044c7c64",
                 "resourcePath": "sprites\\sNebula\\sNebula.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "199db915-6bfd-40f2-88d0-305b2130fbcc",
+            "Value": {
+                "id": "ab17b7fd-91dd-497f-9723-aa58aa2294f5",
+                "resourcePath": "sprites\\sTitle__1_\\sTitle__1_.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -143,6 +159,14 @@
             }
         },
         {
+            "Key": "261fa0d7-ba8a-4393-a02f-a7a31fc54acb",
+            "Value": {
+                "id": "0be875bc-c0e2-4f60-b1b1-6ced1c6f8882",
+                "resourcePath": "sprites\\sBackMenu\\sBackMenu.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "29c75480-6b61-4ced-a6b4-1ae0e2168456",
             "Value": {
                 "id": "fb8870ad-c0bb-4930-9a67-8d49535b4e1f",
@@ -164,6 +188,14 @@
                 "id": "f446374a-d7ed-4580-b4da-feea88a6b835",
                 "resourcePath": "sprites\\sPlayer3\\sPlayer3.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e2841a6-e03c-4b56-a170-b095ca984220",
+            "Value": {
+                "id": "c39361b7-e899-4760-815b-d32294283258",
+                "resourcePath": "objects\\oMouseParallax\\oMouseParallax.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -236,6 +268,14 @@
                 "id": "aa6870f5-2140-4b1b-98a6-51bf9a9b5b6f",
                 "resourcePath": "sprites\\sStar2\\sStar2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "431f938d-75b6-41c1-81d4-47777dce5b6c",
+            "Value": {
+                "id": "4206cc91-392f-4807-b4bd-84d7f954da9f",
+                "resourcePath": "rooms\\rm_death\\rm_death.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -316,6 +356,14 @@
                 "id": "cb6766d2-d1e2-4d38-8dad-1deea1500de7",
                 "resourcePath": "sprites\\sPauseBG\\sPauseBG.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "5fd23598-818f-4947-9aec-593ba050405d",
+            "Value": {
+                "id": "55b6284b-d83c-4f37-8d69-f47bcd5eac2f",
+                "resourcePath": "objects\\oDeathMsg\\oDeathMsg.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -420,6 +468,14 @@
                 "id": "10e66639-0810-4913-84d9-578fb5468195",
                 "resourcePath": "scripts\\generate_room\\generate_room.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "e3ac7f4f-c57f-4c91-b177-97bb1bc43827",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
             }
         },
         {
@@ -535,6 +591,14 @@
             }
         },
         {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "702b37b3-2f93-41eb-bff0-e1a3b0d6f812",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
             "Key": "a24da8e6-3938-45a6-8cf7-e56413e2b8cf",
             "Value": {
                 "id": "3367ee9b-74da-4f09-8929-26d0c17b66a7",
@@ -620,6 +684,14 @@
                 "id": "5f3573e7-9621-43f1-a5ec-d5b2834eb9d7",
                 "resourcePath": "objects\\oGame\\oGame.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bb8230a1-8829-442c-8632-41c466f9ee58",
+            "Value": {
+                "id": "34282775-a6ed-4f91-8883-8b6bfd6e813d",
+                "resourcePath": "rooms\\rm_credits\\rm_credits.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -727,6 +799,14 @@
             }
         },
         {
+            "Key": "d5d3e8c9-7dc2-4aa7-9a80-efb445a047f5",
+            "Value": {
+                "id": "fd9e186b-6952-42a9-8891-371cbee70505",
+                "resourcePath": "objects\\oTitleBtn\\oTitleBtn.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d7b1e199-88d4-4c27-a771-f76a4e6956b1",
             "Value": {
                 "id": "cd8a318f-e5ce-4c09-85c5-7a82fed27f9d",
@@ -783,6 +863,14 @@
             }
         },
         {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "9b7f4cb2-4c6b-470e-ab42-397cd77b78c1",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
             "Key": "e51c888f-c3cb-4bc4-acf6-459ac2954d4a",
             "Value": {
                 "id": "d005bfcd-5c3c-440e-a5d7-7514e37c9d1a",
@@ -835,6 +923,14 @@
             "Value": {
                 "id": "7515a4aa-0dc6-47e0-892a-529d2be4713e",
                 "resourcePath": "objects\\oPowerUp\\oPowerUp.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ed99aa13-fd5f-49bf-a69c-919c84da0b53",
+            "Value": {
+                "id": "bc69e96c-8029-4435-b724-0485d0ec6089",
+                "resourcePath": "objects\\oBackBtn\\oBackBtn.yy",
                 "resourceType": "GMObject"
             }
         },

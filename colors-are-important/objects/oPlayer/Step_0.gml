@@ -57,3 +57,19 @@ with(oEnvironmentSpin)
 }
 moveRot += 2;
 }
+
+if (oGame.lvs <= 0){
+	if(!instance_exists(oTransition))
+{
+	with(instance_create_depth(x,y,-100,oTransition))
+	{
+		whereTo = rm_death;	
+	}
+	
+	instance_create_depth(x+random_range(-64,64),y+random_range(-64,64),-100,oExplosion);
+	instance_create_depth(x,y,-10,oDebris);
+	instance_create_depth(x,y,-10,oDebris);
+	instance_create_depth(x,y,-10,oBam);
+}
+
+}

@@ -15,7 +15,7 @@ if(image_xscale = 1)
 else
 {
 	image_xscale = 1;	
-	x = 30;
-	y = 1056;
+	x = 64;
+	y = 1024;
 }
 image_yscale = image_xscale;
