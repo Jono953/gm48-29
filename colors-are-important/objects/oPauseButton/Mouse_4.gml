@@ -19,4 +19,4 @@ else
 	y = 1024;
 }
 image_yscale = image_xscale;
-sound(choose(button1,button2,button3,button4,button5));
+

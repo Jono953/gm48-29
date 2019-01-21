@@ -5,7 +5,7 @@ if(!instance_exists(oTransition))
 		whereTo = rm_tutorial;	
 	}
 }
-sound(choose(button1,button2,button3,button4,button5))
+
 
 ini_open("save.ini");
 oGame.scrNext = ini_read_real("SAVE","scrlv",0);

@@ -21,7 +21,7 @@ music(currentSong);
 if(room = room0)
 {
 dscr = lerp(dscr,scr,0.1);
-if(scr > nextlv)
+if(scrNext > nextlv)
 {
 	lvs++;
 	nextlv = 5000 * multi * lvs;

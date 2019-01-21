@@ -19,7 +19,7 @@ if(mouse_check_button_released(mb_left))
 }
 if(place_meeting(x,y,oColor))
 {
-	sound(click);
+	
 	colorOther = instance_nearest(x,y,oColor).image_blend;
 	if((image_blend = oGame.yellow and colorOther = oGame.red) or (colorOther = oGame.yellow and image_blend = oGame.red))
 	{

@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "0c71c8f1-9b94-47a1-bcbb-dce8fc6dfce6",
-            "Value": {
-                "id": "5dff16f9-2b74-494a-9ea3-b32cbbbe0c38",
-                "resourcePath": "sounds\\snap\\snap.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "115fa2c2-ae88-4469-bc8a-2be9ae652e6d",
             "Value": {
                 "id": "76724cbf-b276-49fd-b90d-86cd3af5384a",
@@ -143,14 +135,6 @@
             }
         },
         {
-            "Key": "1c4d9206-8115-4886-bf1a-72777dca7067",
-            "Value": {
-                "id": "7b9abc80-3924-4962-ab56-6e05398e6181",
-                "resourcePath": "sounds\\explosion2\\explosion2.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "1e9562ee-020a-4cba-ba94-a36b93c86205",
             "Value": {
                 "id": "bd6cb59b-548c-402c-9d80-7673fb1f7305",
@@ -188,14 +172,6 @@
                 "id": "ead73128-5bbe-4408-85ef-9b3eabc191f1",
                 "resourcePath": "objects\\oConfirm\\oConfirm.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "239cefef-2f0c-48a7-9cd1-84ac1c3a0606",
-            "Value": {
-                "id": "9d929012-6306-467c-99f5-a9958527c219",
-                "resourcePath": "sounds\\click\\click.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -351,14 +327,6 @@
             }
         },
         {
-            "Key": "47b1523b-0476-4dc6-a08a-8af40ba59850",
-            "Value": {
-                "id": "2d4467b1-bfea-4ab0-b21c-8285a52715de",
-                "resourcePath": "datafiles_yy\\MA Bottles Strike 03.wv.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "4c14e7ea-4efc-46ae-b478-70b8a1dab83c",
             "Value": {
                 "id": "30c199d4-9843-428f-a0a9-5535faada1de",
@@ -391,14 +359,6 @@
             }
         },
         {
-            "Key": "4f813210-fc46-4aea-957f-c893f9bf9a37",
-            "Value": {
-                "id": "7a3b799d-f77c-48a1-8aa3-1c730ab33705",
-                "resourcePath": "sounds\\button2\\button2.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "4fbbc21c-ec6a-4957-a75e-dc6c28228e07",
             "Value": {
                 "id": "3a8e7c22-b40a-4e32-a4e6-a159eb950efc",
@@ -412,14 +372,6 @@
                 "id": "cf6db127-acf0-4b9d-b8ad-ef8c318477e3",
                 "resourcePath": "sprites\\sDebris\\sDebris.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "528910d7-3180-4c1e-9826-41e782fadadf",
-            "Value": {
-                "id": "4ec0f0a2-75b0-4f14-bbd0-f930092d275a",
-                "resourcePath": "sounds\\explosion5\\explosion5.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -519,14 +471,6 @@
             }
         },
         {
-            "Key": "71d32173-4468-4c7b-b480-002a56efc223",
-            "Value": {
-                "id": "e15dc99c-c76d-40dd-8435-a00c19a65a5a",
-                "resourcePath": "sounds\\explosion4\\explosion4.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "72c32695-a864-4f95-86ca-b79d786d0f1e",
             "Value": {
                 "id": "4526814b-a403-4e8f-adf1-2b4d2eb4061c",
@@ -540,6 +484,14 @@
                 "id": "6fcdbf59-22d4-4c13-9cbc-2ad8ae599ba3",
                 "resourcePath": "sprites\\sFishMd\\sFishMd.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "db35d22a-df3a-4057-95be-25f8861f99cd",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
             }
         },
         {
@@ -607,14 +559,6 @@
             }
         },
         {
-            "Key": "850f084a-203a-4f8a-98db-683650ec5e87",
-            "Value": {
-                "id": "8b8aefde-02c8-4edf-b705-7515c01e5ccc",
-                "resourcePath": "sounds\\explosion3\\explosion3.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "8537f66a-883d-466e-a5ff-fb35328abc39",
             "Value": {
                 "id": "ad0afe54-f661-4c5f-a596-8e763295eeec",
@@ -663,14 +607,6 @@
             }
         },
         {
-            "Key": "8b965c74-ad5b-434a-b800-1df218356f69",
-            "Value": {
-                "id": "7b78521b-b63c-4773-b8b4-041a27b101eb",
-                "resourcePath": "sounds\\button1\\button1.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
             "Key": "8e83397c-cd8b-4ad7-b64f-852da196cd2e",
             "Value": {
                 "id": "26073620-ec17-444b-a6f0-f135c1a51a04",
@@ -700,14 +636,6 @@
                 "id": "46c6b858-06bf-4879-921b-7169ab16bea6",
                 "resourcePath": "fonts\\fGame2\\fGame2.yy",
                 "resourceType": "GMFont"
-            }
-        },
-        {
-            "Key": "97f06cd3-9ac3-44ed-8503-dd3a9f67581e",
-            "Value": {
-                "id": "9ea8ded9-c27d-498c-9fe2-671b0088930d",
-                "resourcePath": "datafiles_yy\\MA Bottles Strike 02.wv.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -804,14 +732,6 @@
                 "id": "c22d32ed-9499-42b5-bdce-fa0ba1fa40f2",
                 "resourcePath": "objects\\oNewGame\\oNewGame.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "b43ecdde-f5e3-4dec-af23-1f7d6be7786f",
-            "Value": {
-                "id": "a664af3e-c7cf-4533-aa8a-9fb565864019",
-                "resourcePath": "sounds\\button5\\button5.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -956,14 +876,6 @@
                 "id": "3149574b-6cad-40ba-8bd7-d68c35c6c839",
                 "resourcePath": "sprites\\sStar\\sStar.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d00d4e5b-4e86-4851-8774-784744fb4cfd",
-            "Value": {
-                "id": "1b831cfc-09fa-4922-b90e-7029530605b1",
-                "resourcePath": "sounds\\laser\\laser.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -1127,14 +1039,6 @@
             }
         },
         {
-            "Key": "f19c809a-4838-4506-a536-80260a5169df",
-            "Value": {
-                "id": "2388fd8d-955b-4203-a2c8-035391a74512",
-                "resourcePath": "datafiles_yy\\MA Bottles Strike 01.wv.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "f2a7a379-0f3b-493d-8ec5-2288f2487cfc",
             "Value": {
                 "id": "1beed433-a4e1-4ecc-8923-54ee186b2ab5",
@@ -1196,22 +1100,6 @@
                 "id": "3f11f143-492e-4f60-a427-2d367d6ad5e5",
                 "resourcePath": "sprites\\sFishSm\\sFishSm.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "fd2b1ba1-6e0f-4cd7-b8b9-39946f59b5a0",
-            "Value": {
-                "id": "7ffddf60-2c0d-405b-bfab-7e6ab73ad8bb",
-                "resourcePath": "sounds\\button4\\button4.yy",
-                "resourceType": "GMSound"
-            }
-        },
-        {
-            "Key": "ffdd4593-8aa4-4c58-867c-3c557025727b",
-            "Value": {
-                "id": "1b5cce33-9d1c-46ec-8296-72143385370f",
-                "resourcePath": "sounds\\button3\\button3.yy",
-                "resourceType": "GMSound"
             }
         },
         {
